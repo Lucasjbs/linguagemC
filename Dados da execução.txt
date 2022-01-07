@@ -1,0 +1,8 @@
+
+
+1-Marca do computador: Acer
+2-IP do computador: 1416000
+3-Preco do computador: 1200
+4-Sistema operacional do computador: Windows
+Quantidade de computadores: 3
+Quantidade de celulares: 3
