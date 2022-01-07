@@ -1,3 +1,11 @@
+/*
+FEITO NO SEGUNDO SEMESTRE DE 2016
+
+Este projeto armazena os dados sobre computadores e celulares obtidos pelo usuário, e os armazena no 
+arquivo "Dados da execução.txt" quando o usuário escolher a opção "Salvar e sair"
+
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<strings.h>
@@ -47,7 +55,7 @@ int main(int argc, char *argv[])
 {
 	int num_pc, num_cell, op;
 	int gatekeeper;
-	arq = fopen("Dados da execu��o.txt", "w");
+	arq = fopen("Dados da execução.txt", "w");
 	Computador *data1;
 	Celular *data2;
 	int cont, x, i, value1=0, value2=0, value3=0, value4=0, value5=0;
@@ -317,7 +325,7 @@ void remover_pc(Computador *data1, Celular *data2, int num_pc, int num_cell, int
 			j=1;
 		}
 	}
-	if (j==0) printf("O computador com o IP %d n�o existe!", x);
+	if (j==0) printf("O computador com o IP %d não existe!", x);
 	printf("\nDigite 1 para continuar ou 0 para voltar ao menu\t");
 	scanf ("%d", &i);
 	fflush(stdin);
@@ -544,7 +552,7 @@ void remover_cell(Computador *data1, Celular *data2, int num_pc, int num_cell, i
 			j=1;
 		}
 	}
-	if (j==0) printf("O celular com o IP %d n�o existe!", x);
+	if (j==0) printf("O celular com o IP %d não existe!", x);
 	printf("\nDigite 1 para continuar ou 0 para voltar ao menu\t");
 	scanf ("%d", &i);
 	fflush(stdin);
