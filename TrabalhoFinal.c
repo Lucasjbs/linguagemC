@@ -1,11 +1,13 @@
 /* 
-Desenvolva um programa que contenha uma matriz 6x6 de inteiros. O programa deverá solicitar ao usuário a digitação dos 36 números. Na sequência, o programa deverá varrer a matriz e fazer as seguintes alterações:
- a-) se o número for par, acrescentar ao seu valor 4;
- b-) se o número for ímpar, acrescentar ao seu valor 1; 
- c-) se a matriz tiver o número 10, deverá ser substituído por 15;
- d-) se a matriz tiver o número 17, deverá ser substituído por 12;
- e-) quantos números pares e ímpares tinham antes da alteração;
- f-) quantos números pares e ímpares tinham após a alteração.
+FEITO NO PRIMEIRO SEMESTRE DE 2016
+
+Desenvolva um programa que contenha uma matriz 6x6 de inteiros. O programa deverÃ¡ solicitar ao usuÃ¡rio a digitaÃ§Ã£o dos 36 nÃºmeros. Na sequÃªncia, o programa deverÃ¡ varrer a matriz e fazer as seguintes alteraÃ§Ãµes:
+ a-) se o nÃºmero for par, acrescentar ao seu valor 4;
+ b-) se o nÃºmero for Ã­mpar, acrescentar ao seu valor 1; 
+ c-) se a matriz tiver o nÃºmero 10, deverÃ¡ ser substituÃ­do por 15;
+ d-) se a matriz tiver o nÃºmero 17, deverÃ¡ ser substituÃ­do por 12;
+ e-) quantos nÃºmeros pares e Ã­mpares tinham antes da alteraÃ§Ã£o;
+ f-) quantos nÃºmeros pares e Ã­mpares tinham apÃ³s a alteraÃ§Ã£o.
  */
 #include <stdio.h>
 int i, x, j;
